@@ -55,7 +55,7 @@ Each UX Research technique implemented in this project maps directly to standard
 ### Value Proposition Canvas
 The Value Proposition Canvas bridges user pains/gains with system features, emphasizing algorithmic transparency, discrete support, and non-stigmatizing communication templates.
 
-![Value Proposition Canvas](files/canvas_value/canvas_valor.pdf)
+![Value Proposition Canvas](files/UX - Template Value Proposition Canvas final.png)
 
 ---
 
