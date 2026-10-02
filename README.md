@@ -66,7 +66,8 @@ The Value Proposition Canvas bridges user pains/gains with system features, emph
 * **Pains:** Fear of acting on algorithmic false positives; lack of early indicators; fear of causing student embarrassment.
 * **Needs:** Clear risk dashboards with explicit uncertainty indicators and ready-to-use empathetic outreach templates.
 
-![UX Persona - Claudio Novarro](files/ux_persons/claudio_novarro.pdf)
+[![UX Persona - Claudio Novarro](https://github.com/user-attachments/assets/bbbcf2eb-7c02-4dbc-9fd5-e85ca9b9ac3f)](files/ux_persons/claudio_novarro.pdf)
+
 
 ---
 
@@ -75,7 +76,9 @@ The Value Proposition Canvas bridges user pains/gains with system features, emph
 * **Pains:** Anxiety regarding threatening warning emails; fear of being labeled as a "bad student".
 * **Needs:** A non-judgmental, private portal to track progress and request discrete tutoring.
 
-![UX Persona - José Pérez](files/ux_persons/jose_perez.pdf)
+[![UX Persona - José Pérez](https://github.com/user-attachments/assets/c426c1d9-b9cb-46f4-b301-02fcec9bb581)](files/ux_persons/jose_perez.pdf)
+
+
 
 ---
 
@@ -84,4 +87,5 @@ The Value Proposition Canvas bridges user pains/gains with system features, emph
 * **Pains:** Students seeking help too late in the semester due to stigma and isolation.
 * **Needs:** A privacy-preserving mechanism to receive tutoring requests and focus on subject difficulties.
 
-![UX Persona - León Castillo](files/ux_persons/leon_castillo.pdf)
+[![UX Persona - León Castillo](https://github.com/user-attachments/assets/f26b729f-0395-4b28-a614-4e59554c3ecc)](files/ux_persons/leon_castillo.pdf)
+
