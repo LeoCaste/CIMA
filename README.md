@@ -55,7 +55,7 @@ Each UX Research technique implemented in this project maps directly to standard
 ### Value Proposition Canvas
 The Value Proposition Canvas bridges user pains/gains with system features, emphasizing algorithmic transparency, discrete support, and non-stigmatizing communication templates.
 
-![Value Proposition Canvas](./canvas_value/canvas_valor.pdf)
+![Value Proposition Canvas](.files//canvas_value/canvas_valor.pdf)
 
 ---
 
@@ -66,7 +66,7 @@ The Value Proposition Canvas bridges user pains/gains with system features, emph
 * **Pains:** Fear of acting on algorithmic false positives; lack of early indicators; fear of causing student embarrassment.
 * **Needs:** Clear risk dashboards with explicit uncertainty indicators and ready-to-use empathetic outreach templates.
 
-![UX Persona - Claudio Novarro](./ux_persons/claudio_novarro.pdf)
+![UX Persona - Claudio Novarro](.files/ux_persons/claudio_novarro.pdf)
 
 ---
 
@@ -75,7 +75,7 @@ The Value Proposition Canvas bridges user pains/gains with system features, emph
 * **Pains:** Anxiety regarding threatening warning emails; fear of being labeled as a "bad student".
 * **Needs:** A non-judgmental, private portal to track progress and request discrete tutoring.
 
-![UX Persona - José Pérez](./ux_persons/jose_perez.pdf)
+![UX Persona - José Pérez](.files//ux_persons/jose_perez.pdf)
 
 ---
 
@@ -84,4 +84,4 @@ The Value Proposition Canvas bridges user pains/gains with system features, emph
 * **Pains:** Students seeking help too late in the semester due to stigma and isolation.
 * **Needs:** A privacy-preserving mechanism to receive tutoring requests and focus on subject difficulties.
 
-![UX Persona - León Castillo](./ux_persons/leon_castillo.pdf)
+![UX Persona - León Castillo](.files//ux_persons/leon_castillo.pdf)
