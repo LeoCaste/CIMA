@@ -49,12 +49,20 @@ The Value Proposition Canvas bridges user pains/gains with system features, emph
 ### 3.2. UX Personas
 Each persona was developed to map the needs of our three core stakeholders, ensuring that our intervention model focuses on privacy and reduces the friction to seek help.
 
-* **Claudio Novarro (Academic Director):** Goal is early, confidential intervention without stigmatizing students. Needs clear risk dashboards with explicit uncertainty indicators. 
-  📄 **[View Persona (PDF)](files/ux_persons/claudio_novarro.pdf)**
-* **José Pérez (First-Year Student):** Goal is to track grades while privately obtaining academic help. Needs a non-judgmental portal to request discrete tutoring. 
-  📄 **[View Persona (PDF)](files/ux_persons/jose_perez.pdf)**
-* **León Castillo (Peer Tutor):** Goal is to help junior students and reduce help-seeking friction. Needs a privacy-preserving mechanism to receive tutoring requests. 
-  📄 **[View Persona (PDF)](files/ux_persons/leon_castillo.pdf)**
+#### Claudio Novarro — Academic Director
+* **Goal:** Early, confidential intervention without stigmatizing students. 
+* **Needs:** Clear risk dashboards with explicit uncertainty indicators.
+[![UX Persona - Claudio Novarro](https://github.com/user-attachments/assets/bbbcf2eb-7c02-4dbc-9fd5-e85ca9b9ac3f)](files/ux_persons/claudio_novarro.pdf)
+
+#### José Pérez — First-Year Student
+* **Goal:** Track grades while privately obtaining academic help. 
+* **Needs:** A non-judgmental portal to request discrete tutoring.
+[![UX Persona - José Pérez](https://github.com/user-attachments/assets/c426c1d9-b9cb-46f4-b301-02fcec9bb581)](files/ux_persons/jose_perez.pdf)
+
+#### León Castillo — Peer Tutor
+* **Goal:** Help junior students and reduce help-seeking friction. 
+* **Needs:** A privacy-preserving mechanism to receive tutoring requests.
+[![UX Persona - León Castillo](https://github.com/user-attachments/assets/f26b729f-0395-4b28-a614-4e59554c3ecc)](files/ux_persons/leon_castillo.pdf)
 
 ---
 
@@ -76,8 +84,14 @@ To maintain architectural consistency, traceability, and prevent functional over
 ### 4.2. Benchmarking
 To define the functional boundaries of CIMA and validate our approach to algorithmic uncertainty and privacy, we analyzed existing market solutions (Civitas Learning, EAB Navigate360, and Salesforce Education Cloud). 
 
-The complete breakdown of our findings, adopted/rejected UI patterns, and tool-specific evaluations can be found in our benchmark documentation:
+📑 **[View Complete Benchmark Summary & Findings](files/benchmark/summary.md)**
 
-* 📑 **[View Benchmark Summary & Findings](files/benchmark/summary.md)**
-* 📊 **[View Feature Map (PDF)](files/benchmark/assets/feature_map.pdf)**
-* 📈 **[View Comparative Matrix (PDF)](files/benchmark/assets/comparative_matrix.pdf)**
+#### Feature Map
+The feature map defines our market differentiators, including our unique approach to qualitative certainty wording and discreet help channels. Click the image to view the PDF version.
+
+[![Feature Map](https://github.com/user-attachments/assets/a6487db1-d0e8-4daa-8bd6-24abd7a8ec0c)](files/benchmark/assets/feature_map.pdf)
+
+#### Comparative Matrix
+The evaluation covers 9 core UX dimensions. *Note: Dimensions 4, 5, and 6 correspond directly to the domain-specific criteria evaluated in this project.* Click the image to view the PDF version.
+
+[![Comparative Matrix](https://github.com/user-attachments/assets/0f68e9cd-d15d-48ea-bb1b-e295d8fc4e46)](files/benchmark/assets/comparative_matrix.pdf)
