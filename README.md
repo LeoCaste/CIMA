@@ -1,90 +1,83 @@
-# Confidential Intervención & Mentorship Analytics
+# CIMA - Confidential Intervention & Mentorship Analytics
+
+An empathetic, privacy-first Early Warning System for academic risk management without stigmatization.
+
+---
+
+## Index
+
+- [1. Team Identification and Roles](#1-team-identification-and-roles)
+- [2. Problem Statement & Proposed Solution](#2-problem-statement--proposed-solution)
+  - [2.1. Problem Statement](#21-problem-statement)
+  - [2.2. Solution Overview](#22-solution-overview)
+- [3. The Strategy](#3-the-strategy)
+  - [3.1. Value Proposition Canvas](#31-value-proposition-canvas)
+  - [3.2. UX Personas](#32-ux-personas)
+- [4. The Scope](#4-the-scope)
+  - [4.1. Scope Delimitation & Justification](#41-scope-delimitation--justification)
+  - [4.2. Benchmarking](#42-benchmarking)
+
+---
 
 ## 1. Team Identification and Roles
+
 * **Leonardo Castellón** — Team Lead
-* **Cristóbal Ramos** — Systems & Data Analyst
+* **Cristóbal Ramos** — Analyst
 * **Héctor Rosales** — UX/UI Designer
 
 ---
 
-## 2. Problem Statement & Proposed Solution Scope
+## 2. Problem Statement & Proposed Solution
 
-### Problem Statement
+### 2.1. Problem Statement
 Educational institutions calculate academic risk indicators based on attendance, grades, and platform usage. However, algorithmically labeling a student as "at risk" carries significant social side effects: public stigmatization, self-fulfilling prophecies, and unintended disciplinary actions. 
 
 The challenge involves two main stakeholders with distinct needs—academic directors seeking timely intervention without labeling students, and students seeking discreet support without feeling judged or exposed. Furthermore, the underlying algorithmic model is inherently fallible and contains uncertainty. The design must resolve what information is shown to whom, how algorithmic uncertainty is transparently expressed, and what concrete, empathetic actions are enabled.
 
-### Solution Overview
+### 2.2. Solution Overview
 We propose an empathetic, privacy-first academic support platform. Instead of exposing public risk tags or automated disciplinary notices, the solution provides academic directors with uncertainty-aware risk dashboards and non-stigmatizing communication templates. Students gain access to a private self-management portal where they can check their status and discreetly request tutoring support without fear of public exposure.
 
 ---
 
-## 3. Scope Delimitation & Justification
+## 3. The Strategy
 
-To maintain architectural consistency, traceability, and prevent functional overload, the system scope is strictly delimited to **one primary flow** and **two secondary flows**.
-
-### Included Flows
-* **Primary Flow (Main):** *Early Risk Identification & Confidential Empathetic Outreach (Academic Director)*
-  * The Academic Director views student risk indicators alongside algorithmic certainty/uncertainty levels. They initiate contact using predefined, empathetic message templates without triggering punitive warnings.
-* **Secondary Flow 1:** *Private Academic Status Tracking & Discrete Help Request (Student)*
-  * The student accesses a private view of their academic indicators, attendance, and progress, and can discretely request academic assistance/tutoring without feeling judged.
-* **Secondary Flow 2:** *Discrete Tutoring Request Management & Student Support (Peer Tutor)*
-  * Peer tutors receive anonymized or discreet tutoring assignments based on subject difficulty patterns, keeping the student's overall risk status completely confidential.
-
-### Out of Scope (Justification)
-* **Direct Course Teacher / Instructor View & Workflow:** Course-level instructors are explicitly excluded from this iteration to prevent potential classroom bias, unintentional labeling, and privacy leaks during lectures.
-* **Automated Sanctions / Disciplinary Actions:** The system deliberately omits automated disciplinary notices, warning letters, or administrative penalty workflows to avoid punitive outcomes.
-* **Direct Grade Book Modification:** The platform does not alter institutional grade registers or official transcripts.
-
----
-
-## 4. UX Research & UX Elements Framework
-
-Each UX Research technique implemented in this project maps directly to standard UX Elements:
-
-1. **Strategy (Estrategia):** User Needs Analysis via 3 detailed UX Personas (Academic Director, At-Risk Student, Peer Tutor) and a Value Proposition Canvas balancing pains, gains, and feature sets.
-2. **Scope (Alcance):** Benchmark comparison and functional specification defining core feature boundaries (empathetic outreach, uncertainty visualization, private tutoring referral).
-3. **Structure (Estructura):** Information architecture mapping the primary flow for Directors and secondary flows for Students and Tutors.
-4. **Skeleton (Esqueleto):** Wireframes and UI layouts incorporating algorithmic confidence indicators, non-punitive messaging modals, and confidential request buttons.
-5. **Surface (Superficie):** Visual design UI implementation focused on neutral language, non-threatening color palettes, and clear visual hierarchy.
-
----
-
-## 5. Value Proposition Canvas
-
-### Value Proposition Canvas
+### 3.1. Value Proposition Canvas
 The Value Proposition Canvas bridges user pains/gains with system features, emphasizing algorithmic transparency, discrete support, and non-stigmatizing communication templates.
 
 ![Value Proposition Canvas](files/UX-Template-Value-Proposition-Canvas-final.png)
----
 
-### 6. UX Personas
+### 3.2. UX Personas
+Each persona was developed to map the needs of our three core stakeholders, ensuring that our intervention model focuses on privacy and reduces the friction to seek help.
 
-#### 1. Claudio Novarro — Academic Director (Director de Carrera)
-* **Goal:** Early, confidential intervention with students needing academic support without exposing or stigmatizing them.
-* **Pains:** Fear of acting on algorithmic false positives; lack of early indicators; fear of causing student embarrassment.
-* **Needs:** Clear risk dashboards with explicit uncertainty indicators and ready-to-use empathetic outreach templates.
-
-[![UX Persona - Claudio Novarro](https://github.com/user-attachments/assets/bbbcf2eb-7c02-4dbc-9fd5-e85ca9b9ac3f)](files/ux_persons/claudio_novarro.pdf)
-
-
----
-
-#### 2. José Pérez — First-Year Student (Estudiante)
-* **Goal:** Easily track grades and attendance while privately obtaining academic help.
-* **Pains:** Anxiety regarding threatening warning emails; fear of being labeled as a "bad student".
-* **Needs:** A non-judgmental, private portal to track progress and request discrete tutoring.
-
-[![UX Persona - José Pérez](https://github.com/user-attachments/assets/c426c1d9-b9cb-46f4-b301-02fcec9bb581)](files/ux_persons/jose_perez.pdf)
-
-
+* **Claudio Novarro (Academic Director):** Goal is early, confidential intervention without stigmatizing students. Needs clear risk dashboards with explicit uncertainty indicators. 
+  📄 **[View Persona (PDF)](files/ux_persons/claudio_novarro.pdf)**
+* **José Pérez (First-Year Student):** Goal is to track grades while privately obtaining academic help. Needs a non-judgmental portal to request discrete tutoring. 
+  📄 **[View Persona (PDF)](files/ux_persons/jose_perez.pdf)**
+* **León Castillo (Peer Tutor):** Goal is to help junior students and reduce help-seeking friction. Needs a privacy-preserving mechanism to receive tutoring requests. 
+  📄 **[View Persona (PDF)](files/ux_persons/leon_castillo.pdf)**
 
 ---
 
-#### 3. León Castillo — Peer Tutor (Tutor / Alumno Senior)
-* **Goal:** Help junior students pass early computer science subjects and reduce help-seeking friction.
-* **Pains:** Students seeking help too late in the semester due to stigma and isolation.
-* **Needs:** A privacy-preserving mechanism to receive tutoring requests and focus on subject difficulties.
+## 4. The Scope
 
-[![UX Persona - León Castillo](https://github.com/user-attachments/assets/f26b729f-0395-4b28-a614-4e59554c3ecc)](files/ux_persons/leon_castillo.pdf)
+### 4.1. Scope Delimitation & Justification
+To maintain architectural consistency, traceability, and prevent functional overload, the system scope is strictly delimited to **one primary flow** and **two secondary flows**.
 
+**Included Flows:**
+* **Primary Flow:** *Early Risk Identification & Confidential Empathetic Outreach (Academic Director).* The Academic Director views student risk indicators alongside algorithmic uncertainty levels and initiates contact using predefined templates.
+* **Secondary Flow 1:** *Private Academic Status Tracking & Discrete Help Request (Student).* The student accesses a private view of their academic progress and can discretely request assistance.
+* **Secondary Flow 2:** *Discrete Tutoring Request Management (Peer Tutor).* Peer tutors receive anonymized tutoring assignments based on subject difficulty patterns.
+
+**Out of Scope (Justification):**
+* **Direct Course Teacher View:** Excluded to prevent potential classroom bias, unintentional labeling, and privacy leaks during lectures.
+* **Automated Sanctions:** The system deliberately omits automated disciplinary notices or penalty workflows to avoid punitive outcomes.
+* **Direct Grade Book Modification:** The platform does not alter institutional grade registers or official transcripts.
+
+### 4.2. Benchmarking
+To define the functional boundaries of CIMA and validate our approach to algorithmic uncertainty and privacy, we analyzed existing market solutions (Civitas Learning, EAB Navigate360, and Salesforce Education Cloud). 
+
+The complete breakdown of our findings, adopted/rejected UI patterns, and tool-specific evaluations can be found in our benchmark documentation:
+
+* 📑 **[View Benchmark Summary & Findings](files/benchmark/summary.md)**
+* 📊 **[View Feature Map (PDF)](files/benchmark/assets/feature_map.pdf)**
+* 📈 **[View Comparative Matrix (PDF)](files/benchmark/assets/comparative_matrix.pdf)**
