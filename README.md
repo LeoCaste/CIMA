@@ -105,4 +105,4 @@ This map explicitly traces the emotional and actionable parallel paths of both C
 * **Claudio's Track:** Moves from the tension of evaluating a risk alert to the satisfaction of executing a contextual, empathetic outreach without disciplinary friction.
 * **José's Track:** Moves from the anxiety of academic struggles to the relief of receiving a supportive message, culminating in the empowerment of using the discreet self-request channel for tutoring.
 
-**📄 [View the Dual-Track Customer Journey Map (PDF)](files/Customer journey map.pdf)**
+**📄 [View the Dual-Track Customer Journey Map (PDF)](files/Customer_journey_map.pdf)**
