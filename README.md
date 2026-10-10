@@ -16,7 +16,7 @@ An empathetic, privacy-first Early Warning System for academic risk management w
 - [4. The Scope](#4-the-scope)
   - [4.1. Scope Delimitation & Justification](#41-scope-delimitation--justification)
   - [4.2. Benchmarking](#42-benchmarking)
-
+  - [4.3. Dual-Track Customer Journey Map](#43-dual-track-customer-journey-map)
 ---
 
 ## 1. Team Identification and Roles
@@ -84,7 +84,7 @@ To maintain architectural consistency, traceability, and prevent functional over
 ### 4.2. Benchmarking
 To define the functional boundaries of CIMA and validate our approach to algorithmic uncertainty and privacy, we analyzed existing market solutions (Civitas Learning, EAB Navigate360, and Salesforce Education Cloud). 
 
-📑 **[View Complete Benchmark Summary & Findings](files/benchmark/summary.md)**
+📄 **[View the Complete Competitive Benchmark Analysis (PDF)](files/benchmark/Benchmark.pdf)**
 
 #### Feature Map
 The feature map defines our market differentiators, including our unique approach to qualitative certainty wording and discreet help channels. Click the image to view the PDF version.
@@ -95,3 +95,14 @@ The feature map defines our market differentiators, including our unique approac
 The evaluation covers 9 core UX dimensions. *Note: Dimensions 4, 5, and 6 correspond directly to the domain-specific criteria evaluated in this project.* Click the image to view the PDF version.
 
 [![Comparative Matrix](https://github.com/user-attachments/assets/0f68e9cd-d15d-48ea-bb1b-e295d8fc4e46)](files/benchmark/assets/comparative_matrix.pdf)
+
+### 4.3. Dual-Track Customer Journey Map
+
+Traditional Early Warning Systems map only the administrative flow, ignoring the psychological impact on the student. To ensure CIMA remains empathetic and non-stigmatizing, we developed a **Dual-Track Customer Journey Map** to define the necessary touchpoints and interaction requirements before structuring the application.
+
+This map explicitly traces the emotional and actionable parallel paths of both Claudio (Academic Director) and José (First-Year Student), demonstrating the exact moment where the system cross-contacts them without public exposure.
+
+* **Claudio's Track:** Moves from the tension of evaluating a risk alert to the satisfaction of executing a contextual, empathetic outreach without disciplinary friction.
+* **José's Track:** Moves from the anxiety of academic struggles to the relief of receiving a supportive message, culminating in the empowerment of using the discreet self-request channel for tutoring.
+
+**📄 [View the Dual-Track Customer Journey Map (PDF)](files/Customer journey map.pdf)**
