@@ -97,7 +97,7 @@ The complete competitive benchmark (Civitas Learning, EAB Navigate360, and Sales
 
 📄 **[View the Complete Competitive Benchmark Analysis (PDF)](files/benchmark/Benchmark.pdf)**
 
-[![Benchmark — cover](files/benchmark/benchmark_cover.png)](files/benchmark/Benchmark.pdf)
+
 
 The deck includes the feature map (map of ideas), the synthetic comparative matrix (9 core UX dimensions), annotated screenshots per tool, key findings, and the design decisions adopted/adapted/avoided. The exploration criteria are summarized in its *Evaluation Dimensions* slide.
 
